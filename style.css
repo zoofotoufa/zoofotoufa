@@ -27,6 +27,7 @@ body {
 	left: 0;
 	margin-left: 0;
 	padding-top: 40px;
+	padding-bottom: 10px;
 	width: 100%;
 	height: auto;
 	min-width: 980px;
@@ -75,7 +76,6 @@ a {
 	position: relative;
 	width: 980px;
 	height: 41px;
-	padding-bottom: 45.016px;
 	margin: 0px 0px 30px calc((100% - 980px) * 0.5);
 	direction: ltr;
 	overflow-x: visible;
@@ -88,16 +88,16 @@ a {
 	flex-direction: column;
 	height: 100%;
 	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
-ul {
+.ul {
 	text-align: center;
 	display: block;
 	list-style: none;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start:  40px;
+	margin: 0;
 	padding: 0;
 }
 .menu-dogs {
@@ -145,6 +145,7 @@ ul {
 	padding: 0 10px;
 	color: rgb(41, 41, 41);
 	line-height: 41px;
+	margin: 0;
 }
 .pages-container {
 	display: block;
@@ -163,7 +164,7 @@ ul {
 	display: block;
 	position: relative;
 	margin: 29px 0px 0 calc((100% - 980px) * 0.5);
-	left: -168px;
+	left: -110px;
 	width: 1177px;
 	height: 2596px;
 }
@@ -382,5 +383,5 @@ ul {
 	font-weight: normal;
 	font-style: normal;
 	color: rgb(96,94,94);
-	padding-top: 80px;
+	padding-top: 60px;
 }
