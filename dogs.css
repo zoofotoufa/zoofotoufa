@@ -160,6 +160,21 @@ a {
 	overflow-x: clip;
 	border: 0;
 }
+.heading-block {
+	display: block;
+	position: relative;
+	width: 948px;
+	height: auto;
+	margin: 23px 0px 43px calc((100% - 980px) * 0.5);
+}
+.heading {
+	text-align: center;
+	font-size: 28px;
+	font: italic normal normal 28px/1.4em 'eb garamond',serif;
+	color: rgb(41, 41, 41);
+	line-height: normal;
+	letter-spacing: normal;
+}
 .gallery {
 	display: block;
 	position: relative;
